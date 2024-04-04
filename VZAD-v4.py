@@ -264,14 +264,12 @@ while True:
         plt.title("VZAD python")
 
         os.chdir(analysis_name)
-        #ft_data = np.array('O2data.txt')
-        o2_data = np.loadtxt('Normalized_O2')
-        fft_points = len(o2_data)
-        x = np.linspace(0, fft_points, endpoint=False)  # x axis indicators
-        x_fft = fftfreq(fft_points)[:fft_points // 2]  # make x axis to be half of number of values
-        y_fft = fft(o2_data)  # fft on data
+        fft_points = len(O2ExpNormalized)
+        x = np.linspace(0, fft_points, endpoint=False)  #x axis indicators
+        x_fft = fftfreq(fft_points)[:fft_points // 2]  #make x axis to be half of number of values
+        y_fft = fft(O2ExpNormalized)  # fft on data
         with open('FFT.txt', 'w') as f:
-            for n in range(1, len(x_fft)):
+            for n in range(1,len(x_fft)):
                 f.write(f"{x_fft[n]} \t {y_fft[n]}\n")
 
         fig1.savefig("figVZADPython" + alg + ".png", dpi=300)
