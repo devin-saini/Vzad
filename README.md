@@ -14,3 +14,6 @@ cd pygsl-2.3.3
 python setup.py gsl_wrappers
 python setup.py config
 sudo python setup.py install
+
+## Install NLOPT
+https://stackoverflow.com/questions/62704802/cannot-install-nlopt-python-module
