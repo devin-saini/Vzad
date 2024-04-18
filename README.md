@@ -16,4 +16,10 @@ python setup.py config
 sudo python setup.py install
 
 ## Install NLOPT
+After downloading and unzipping the nlopt zip file, from the command line move into the nlopt folder and enter the following promts:
+mkdir build
+cd build
+
+Move the
+
 https://stackoverflow.com/questions/62704802/cannot-install-nlopt-python-module
