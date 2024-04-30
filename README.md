@@ -14,14 +14,12 @@ Move the cmake.txt file into the "build" folder
 
 https://stackoverflow.com/questions/62704802/cannot-install-nlopt-python-module
 
-
-
 # DONT FOLLOW STEPS BELOW (These are for c++ vzad)
-## Install GNU
+Install GNU
 File: https://www.gnu.org/software/gsl/
 Instructions: https://gist.github.com/TysonRayJones/af7bedcdb8dc59868c7966232b4da903
 
-## Install PyGSL
+Install PyGSL
 pygsl tar file: https://github.com/pygsl/pygsl/releases 
 pip install pygsl or https://pypi.org/project/pygsl/
 If want to set up manually (issues may occur):
