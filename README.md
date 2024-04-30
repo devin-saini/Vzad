@@ -14,6 +14,8 @@ Move the cmake.txt file into the "build" folder
 
 https://stackoverflow.com/questions/62704802/cannot-install-nlopt-python-module
 
+
+
 # DONT FOLLOW STEPS BELOW (These are for c++ vzad)
 ## Install GNU
 File: https://www.gnu.org/software/gsl/
