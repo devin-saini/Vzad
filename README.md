@@ -1,7 +1,7 @@
 # Work in Progress
 Install depenencies needed to run code:
 
-# Install NLOPT (if nlopt can't be downloaded from respective IDE)
+## Install NLOPT (if nlopt can't be downloaded from respective IDE)
 Install Swig (dependency for numpy)
 brew install swig
 
