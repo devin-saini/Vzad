@@ -1,5 +1,6 @@
 # Work in Progress
-Install depenencies needed to run code:
+The PyCharm IDE is recommended as it can be used to import all dependencies needed to run code (https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
+To manually install depenencies needed to run code, please refer to the instructions below.
 
 ## Install NLOPT (if nlopt can't be downloaded from respective IDE)
 Install Swig (dependency for nlopt) by going to swig hompeage (https://www.swig.org/download.html) or using homebrew
