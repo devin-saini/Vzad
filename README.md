@@ -3,12 +3,12 @@ The PyCharm IDE is recommended as it can be used to import all dependencies need
 To manually install depenencies needed to run code, please refer to the instructions below.
 
 The dependencies needed are:
-OS to interact with the operating system
-Numpy for data analysis
-Matplotlib for graphing
-scipy for fourier transform
-nlopt for analysis algorithms
-glob2 for paths of specific files
+OS to interact with the operating system, 
+Numpy for data analysis, 
+Matplotlib for graphing, 
+Scipy for fourier transform, 
+nlopt for analysis algorithms, 
+Glob2 for paths of specific files
 
 ## Install NLOPT (if nlopt can't be downloaded from respective IDE)
 Install Swig (dependency for nlopt) by going to swig hompeage (https://www.swig.org/download.html) or using homebrew
