@@ -257,11 +257,11 @@ while True:
         SimOpt = forwardSimulation(x, O2Exp, analysisType)
         residual = [SimOpt.Sim[i] - O2Exp[i] for i in range(len(SimOpt.Sim))]
 
-        ax1.plot(range(len(O2Exp)), O2Exp, label="Normalized Data", color="black", marker="s")
-        ax1.plot(range(len(SimOpt.Sim)), SimOpt.Sim, label="Fit Data", color = "red", marker = "o")
+        ax1.plot(range(len(O2Exp)), O2Exp, label = "Normalized Data", color = "black", marker = "s")
+        ax1.plot(range(len(SimOpt.Sim)), SimOpt.Sim, label = "Fit Data", color = "red", marker = "o")
         ax1.scatter(range(len(SimOpt.Sim)), SimOpt.Sim, s=6)
         ax1.scatter(range(len(O2Exp)), O2Exp, s=6)
-        ax1.plot(range(len(residual)), residual, label="Residual", color = "blue", marker = "^")
+        ax1.plot(range(len(residual)), residual, label= "Residual", color = "blue", marker = "^")
         ax1.scatter(range(len(residual)), residual, s=6)
         ax1.legend(frameon = False)
         plt.title("VZAD python")
