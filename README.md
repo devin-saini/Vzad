@@ -8,4 +8,4 @@ Numpy for data analysis,
 Matplotlib for graphing, 
 Scipy for fourier transform, 
 nlopt for analysis algorithms, 
-Glob2 for paths of specific files
+Glob2 for file path
